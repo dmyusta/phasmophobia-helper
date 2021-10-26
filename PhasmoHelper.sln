@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhasmoHelper.WindowsApp", "src\PhasmoHelper.WindowsApp\PhasmoHelper.WindowsApp.csproj", "{0AFCB60D-EB9F-4C83-8B13-7A2344A4ED8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhasmoHelper.Domain", "src\PhasmoHelper.Domain\PhasmoHelper.Domain.csproj", "{80F3CAF7-C0D3-49B1-85E1-F96F6F83410F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhasmoHelper.Domain.Tests", "test\PhasmoHelper.Domain.Tests\PhasmoHelper.Domain.Tests.csproj", "{9B1E3B4E-890A-41D5-BD5D-841721CF1297}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhasmoHelper.Infrastructure", "src\PhasmoHelper.Infrastructure\PhasmoHelper.Infrastructure.csproj", "{825979C8-FA9A-4E05-A347-8E0569B40145}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CA20747F-3073-438E-BDBC-EAFF01912367}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{289B33F8-65F7-451A-B9B8-B262EA8693BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AFCB60D-EB9F-4C83-8B13-7A2344A4ED8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFCB60D-EB9F-4C83-8B13-7A2344A4ED8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFCB60D-EB9F-4C83-8B13-7A2344A4ED8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFCB60D-EB9F-4C83-8B13-7A2344A4ED8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F3CAF7-C0D3-49B1-85E1-F96F6F83410F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F3CAF7-C0D3-49B1-85E1-F96F6F83410F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F3CAF7-C0D3-49B1-85E1-F96F6F83410F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F3CAF7-C0D3-49B1-85E1-F96F6F83410F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1E3B4E-890A-41D5-BD5D-841721CF1297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1E3B4E-890A-41D5-BD5D-841721CF1297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1E3B4E-890A-41D5-BD5D-841721CF1297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1E3B4E-890A-41D5-BD5D-841721CF1297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{825979C8-FA9A-4E05-A347-8E0569B40145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825979C8-FA9A-4E05-A347-8E0569B40145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{825979C8-FA9A-4E05-A347-8E0569B40145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825979C8-FA9A-4E05-A347-8E0569B40145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AFCB60D-EB9F-4C83-8B13-7A2344A4ED8E} = {CA20747F-3073-438E-BDBC-EAFF01912367}
+		{80F3CAF7-C0D3-49B1-85E1-F96F6F83410F} = {CA20747F-3073-438E-BDBC-EAFF01912367}
+		{9B1E3B4E-890A-41D5-BD5D-841721CF1297} = {289B33F8-65F7-451A-B9B8-B262EA8693BA}
+		{825979C8-FA9A-4E05-A347-8E0569B40145} = {CA20747F-3073-438E-BDBC-EAFF01912367}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {900A5496-7F8B-4ED5-9265-E7274504DA89}
+	EndGlobalSection
+EndGlobal
